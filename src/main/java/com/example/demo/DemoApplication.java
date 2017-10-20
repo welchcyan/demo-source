@@ -25,7 +25,7 @@ public class DemoApplication{
 			Thread t = new Thread(new Runnable() {
 				@Override
 				public void run() {
-					for (int i = 0; i < 1000000000; i++) {
+					for (int i = 0; i < 100000; i++) {
 						Random r = new Random();
 						r.setSeed(System.currentTimeMillis());
 						r.nextLong();
